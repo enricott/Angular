@@ -5,14 +5,16 @@
 interface SuperHeroe{
     nombre:string;
     edad: number,
-    direccion: {
-        calle: String;
-        pais: String;
-        ciudad: String;
-    },
+    direccion: Direccion,
     mostrarDireccion: () => String;
     
 }
+
+interface Direccion{
+    calle: String;
+    pais: String;
+    ciudad: String;
+} 
 
 
 const SuperHeroe = {
@@ -29,3 +31,5 @@ const SuperHeroe = {
 }
     const direccion = SuperHeroe.mostrarDireccion();
     console.log( direccion );
+
+    SuperHeroe.edad
