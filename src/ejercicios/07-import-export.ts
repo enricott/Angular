@@ -1,4 +1,4 @@
-import { Producto, calculaISV } from "./ejercicios/06-desectrucutacion-funcion";
+import { Producto, calculaISV } from "./06-desectrucutacion-funcion";
 
 /*
     ===== Código de TypeScript =====
